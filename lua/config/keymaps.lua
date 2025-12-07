@@ -8,3 +8,4 @@ vim.keymap.set(
   { desc = "Open a floating terminal." }
 )
 vim.keymap.set("t", "<M-t>", "<C-\\><C-n><C-w>k", { desc = "Escape terminal mode." })
+vim.keymap.set("n", "0", "<C-w>=", { desc = "Equalize window size" })
